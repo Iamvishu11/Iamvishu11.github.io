@@ -52,11 +52,11 @@ $(function () {
               //show alert
             document.querySelector('.alert2').style.display ='block';
 
-            //Hide alert after 2.5 seconds
+            //Hide alert after 1 seconds
             setTimeout(function(){
                 document.querySelector('.alert2').style.display ='none';
                 location.reload(true);
-            },2500);
+            },1000);
            
 
         } else {
@@ -67,11 +67,11 @@ $(function () {
             //show alert
             document.querySelector('.alert').style.display ='block';
 
-            //Hide alert after 2.5 seconds
+            //Hide alert after 1 seconds
             setTimeout(function(){
                 document.querySelector('.alert').style.display ='none';
                 location.reload(true);
-            },2500);
+            },1000);
 
         }
     }
