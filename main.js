@@ -55,7 +55,7 @@ $(function () {
             //Hide alert after 5 seconds
             setTimeout(function(){
                 document.querySelector('.alert2').style.display ='none';
-               // location.reload(true);
+                location.reload(true);
             },8000);
            
 
@@ -70,7 +70,7 @@ $(function () {
             //Hide alert after 5 seconds
             setTimeout(function(){
                 document.querySelector('.alert').style.display ='none';
-               // location.reload(true);
+                location.reload(true);
             },8000);
 
         }
