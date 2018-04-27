@@ -56,7 +56,7 @@ $(function () {
             setTimeout(function(){
                 document.querySelector('.alert2').style.display ='none';
                 location.reload(true);
-            },8000);
+            },3000);
            
 
         } else {
@@ -71,7 +71,7 @@ $(function () {
             setTimeout(function(){
                 document.querySelector('.alert').style.display ='none';
                 location.reload(true);
-            },8000);
+            },3000);
 
         }
     }
